@@ -1,0 +1,14 @@
+In the config class there is a map of passengers to its respective lock and condition
+The config file also holds all the locations and information about the train and passengers.
+It has many helper functions that return booleans about the simulation state (handles much of the logic)
+
+The passenger thread class simply waits until they are signalled then decides to move or not
+
+The trainthread class operates in two syncrhonized steps:
+    1. It alerts and wakes up all the passnegers at the current station and currently
+       onboard the train giving them access back to there lock. Once the passsengers board or deboard 
+       they go back to await for there lock to be signalled.
+    2. If the next station is free it moves to it. If the train moves there will be a 5 ms delay
+       so that other trains can have the ability to move.
+
+

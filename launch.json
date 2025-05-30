@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Verify",
+            "request": "launch",
+            "mainClass": "Verify",
+            "projectName": "WorkingOld_1ebd377a"
+        },
+        {
+            "type": "java",
+            "name": "Tests",
+            "request": "launch",
+            "mainClass": "Tests",
+            "projectName": "WorkingOld_1ebd377a"
+        },
+        {
+            "vmArgs": "-enableassertions"
+        }
+    ]
+}

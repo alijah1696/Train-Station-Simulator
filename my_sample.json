@@ -1,0 +1,11 @@
+{
+  "lines": {
+    "blue": [ "Bowdoin", "Kendall", "State", "Aquarium",
+      "Maverick", "Airport", "Davis"]
+  },
+  "trips": {
+    "Bob": [ "Airport", "Davis" ],
+    "Alice": [ "Davis", "Kendall" ],
+      "Carol": [ "Bowdoin", "State", "Maverick" ]
+  }
+}
